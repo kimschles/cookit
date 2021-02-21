@@ -1,7 +1,7 @@
 # Cook It 
 
 A take on FizzBuzz, cookit is a go library that evaluates a list of numbers.   
-If the number is divisible by 3, it will print Crackle instead of the number. If it's divisible by 5, it will print Pop. If it's divisible by both 3 and 5, it will print CracklePop.
+If a number in the list is divisible by 3, it will print Crackle instead of the number. If it's divisible by 5, it will print Pop. If it's divisible by both 3 and 5, it will print CracklePop.
 
 ## Prerequisites
 

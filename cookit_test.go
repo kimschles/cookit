@@ -32,10 +32,3 @@ func TestCracklePop(t *testing.T) {
 		t.Errorf("TestCracklePop failed, got: %v, wanted %v", output, returnSlice)
 	}
 }
-
-// TO DO: finish this test
-func TestShowIt(t *testing.T) {
-	testNumbers := []int{49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60}
-	cookedSlice := CookIt(testNumbers)
-	ShowIt(cookedSlice)
-}
